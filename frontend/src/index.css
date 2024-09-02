@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ecf0f1;
+  color: #333;
+}
+
+.hero-image {
+  background-image: url('https://images.unsplash.com/photo-1544392667-d6cc76633537?ixid=M3w2MzIxNTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNzM1NjV8&ixlib=rb-4.0.3');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.dubai-hero-image {
+  background-image: url('https://images.unsplash.com/photo-1559924592-b91c1e69967f?ixid=M3w2MzIxNTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNzM1NjZ8&ixlib=rb-4.0.3');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+.comment-section {
+  background-color: #f8f9fa;
+}
+
+.comment-section .comment:nth-child(even) {
+  background-color: #e9ecef;
+}
